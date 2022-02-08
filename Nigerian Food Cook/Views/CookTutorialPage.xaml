@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ViewModel="clr-namespace:CookApp.ViewModel"
+            x:Class="Nigerian_Food_Cook.Views.CookTutorialPage"
+             xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"  
+             xmlns:ffSvg="clr-namespace:FFImageLoading.Svg.Forms;assembly=FFImageLoading.Svg.Forms"  
+             xmlns:ffTransformations="clr-namespace:FFImageLoading.Transformations;assembly=FFImageLoading.Transformations" xmlns:controls="clr-namespace:MarcTron.Plugin.Controls;assembly=Plugin.MtAdmob" BackgroundColor="LightGray" >
+    
+    
+    <NavigationPage.TitleView>
+       
+            <Label Text="Nigerian Food Cook"  VerticalTextAlignment="Center" TextColor="White" FontSize="Medium"/>
+       
+    </NavigationPage.TitleView>
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="Food" IconImageSource="foodicon.png">
+        
+        <ContentPage.BindingContext>
+            <ViewModel:CookViewModel/>
+        </ContentPage.BindingContext>
+        <StackLayout>
+            
+            <ListView  x:Name="Food_List" Margin="0,10,0,0" RowHeight="200" ItemTapped="Food_List_ItemTapped" IsPullToRefreshEnabled="True">
+                <ListView.ItemTemplate >
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  CornerRadius="15" BackgroundColor="AliceBlue" WidthRequest="360" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                                    
+                                    <ff:CachedImage Source="{Binding Image}" Aspect="Fill" HeightRequest="150" WidthRequest="300" />
+
+                                    <Label Text="{Binding FoodType}" VerticalTextAlignment="Center" FontSize="19" TextColor="Red" BackgroundColor="DarkBlue"  FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,-15,0,0" />
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="Soup" IconImageSource="soupicon.png">
+        <ContentPage.BindingContext>
+            <ViewModel:CookViewModel/>
+        </ContentPage.BindingContext>
+        <StackLayout>
+           
+            <ListView  x:Name="Soup_List" Margin="0,10,0,0" RowHeight="200" ItemTapped="Soup_List_ItemTapped" IsPullToRefreshEnabled="True">
+                <ListView.ItemTemplate >
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  CornerRadius="15" BackgroundColor="AliceBlue" WidthRequest="360" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                                    <ff:CachedImage Source="{Binding Image}" Aspect="Fill" HeightRequest="150" WidthRequest="300" />
+
+                                    <Label Text="{Binding FoodType}" VerticalTextAlignment="Center" FontSize="19" TextColor="Red" BackgroundColor="DarkBlue" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,-15,0,0" />
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+
+
+
+
+    <ContentPage Title="Juice" IconImageSource="juiceicon.png">
+        <ContentPage.BindingContext>
+            <ViewModel:CookViewModel/>
+        </ContentPage.BindingContext>
+        <StackLayout>
+            
+            <ListView  x:Name="Juice_List" Margin="0,10,0,0" RowHeight="200" ItemTapped="Juice_List_ItemTapped" IsPullToRefreshEnabled="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  CornerRadius="15" BackgroundColor="AliceBlue" WidthRequest="360" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                                    <ff:CachedImage Source="{Binding Image}" Aspect="Fill" HeightRequest="150" WidthRequest="300" />
+
+                                    <Label Text="{Binding FoodType}" VerticalTextAlignment="Center" FontSize="19" TextColor="Red" BackgroundColor="DarkBlue" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,-15,0,0" />
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+
+
+    <ContentPage Title="Snacks" IconImageSource="snacksicon.png">
+        <ContentPage.BindingContext>
+            <ViewModel:CookViewModel/>
+        </ContentPage.BindingContext>
+        <StackLayout>
+            
+            <ListView  x:Name="Snacks_List" Margin="0,10,0,0" RowHeight="200" ItemTapped="Snacks_List_ItemTapped" IsPullToRefreshEnabled="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame  CornerRadius="15" BackgroundColor="AliceBlue" WidthRequest="360" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+                                <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                                    
+                                    <ff:CachedImage Source="{Binding Image}" Aspect="Fill" HeightRequest="150" WidthRequest="300" />
+
+                                    <Label Text="{Binding FoodType}" VerticalTextAlignment="Center"  FontSize="19" TextColor="Red" BackgroundColor="DarkBlue" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,-15,0,0" />
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage>
+
+
+
+    <ContentPage Title="CAKE" IconImageSource="cakeicon.png">
+        <ContentPage.BindingContext>
+            <ViewModel:CookViewModel/>
+        </ContentPage.BindingContext>
+        <ScrollView>
+
+            <StackLayout>
+                <ListView  x:Name="Cake_List" Margin="0,10,0,0"  RowHeight="200" ItemTapped="Cake_List_ItemTapped" IsPullToRefreshEnabled="True">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                                <Frame  CornerRadius="15" BackgroundColor="AliceBlue" WidthRequest="360" VerticalOptions="CenterAndExpand"  HorizontalOptions="CenterAndExpand">
+                            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                                        <ff:CachedImage Source="{Binding Image}" Aspect="Fill" HeightRequest="150" WidthRequest="300" />
+
+                                        <Label Text="{Binding FoodType}" VerticalTextAlignment="Center" FontSize="19" BackgroundColor="DarkBlue" TextColor="Red" FontAttributes="Bold" HorizontalTextAlignment="Center" Margin="0,-15,0,0" />
+                                    </StackLayout>
+                                </Frame>
+                            </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+               
+        </StackLayout>
+           
+        </ScrollView>
+    </ContentPage>
+
+   
+</TabbedPage>

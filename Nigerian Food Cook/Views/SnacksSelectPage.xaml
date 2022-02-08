@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:ff="clr-namespace:FFImageLoading.Forms;assembly=FFImageLoading.Forms"
+             x:Class="Nigerian_Food_Cook.Views.SnacksSelectPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+
+                <Frame CornerRadius="10" BackgroundColor="CadetBlue">
+                    <Label x:Name="foodtype" HorizontalTextAlignment="Center"  FontSize="30" VerticalTextAlignment="Center" TextColor="GreenYellow" FontAttributes="Bold"/>
+                </Frame>
+                <StackLayout  HeightRequest="300" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand" >
+                    <ff:CachedImage x:Name="food_img" Aspect="AspectFill" VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                <Frame  CornerRadius="10">
+                    <StackLayout>
+                        <Label Text="INGREDIENTS" TextDecorations="Underline" FontSize="25" TextColor="Black" FontAttributes="Bold"/>
+                        <Label x:Name="food_ingredient" TextColor="Black" FontSize="18" FontAttributes="Bold" LineHeight="1.2"/>
+                    </StackLayout>
+                </Frame>
+
+                <Frame  CornerRadius="10">
+                    <StackLayout>
+                        <Label Text="DIRECTION" TextDecorations="Underline"  FontSize="25" TextColor="Black" FontAttributes="Bold"/>
+                        <Label x:Name="food_direction" TextColor="black" FontSize="18" FontAttributes="Bold" LineHeight="1.2"/>
+                    </StackLayout>
+                </Frame>
+
+
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

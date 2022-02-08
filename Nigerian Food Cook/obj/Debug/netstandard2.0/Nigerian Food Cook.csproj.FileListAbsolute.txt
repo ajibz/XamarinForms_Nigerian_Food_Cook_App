@@ -1,0 +1,23 @@
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Nigerian Food Cook.csproj.AssemblyReference.cache
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\CakeSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\CookFlyoutPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\CookFlyoutPageDetail.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\CookFlyoutPageFlyout.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\CookTutorialPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FindCakeSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FindFoodPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FindFoodSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FindJuiceSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FindSnacksSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FindSoupSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\FoodSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\JuiceSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\NewCookTutorialPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\SnacksSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Views\SoupSelectPage.xaml.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Nigerian Food Cook.AssemblyInfoInputs.cache
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Nigerian Food Cook.AssemblyInfo.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook\obj\Debug\netstandard2.0\Nigerian Food Cook.csproj.CoreCompileInputs.cache

@@ -1,0 +1,11 @@
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\Nigerian Food Cook.UWP.csproj.AssemblyReference.cache
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\App.g.i.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\App.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\MainPage.g.i.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\MainPage.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\XamlTypeInfo.g.cs
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\App.xaml
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\MainPage.xaml
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\App.xbf
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\MainPage.xbf
+C:\Users\AjibzTech\source\repos\Nigerian Food Cook\Nigerian Food Cook.UWP\obj\x86\Debug\XamlSaveStateFile.xml

@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FlyoutPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Nigerian_Food_Cook.Views.CookFlyoutPage"
+             xmlns:pages="clr-namespace:CookApp"
+            >
+  <FlyoutPage.Flyout>
+        <ContentPage Title="CookApp" BackgroundColor="SlateGray">
+            <StackLayout>
+                <Image Source="mumcook.jpg"/>
+
+
+                <StackLayout Orientation="Horizontal" BackgroundColor="WhiteSmoke" Spacing="35" >
+                    <StackLayout.GestureRecognizers>
+                        <TapGestureRecognizer Tapped="Learn_Clicked" NumberOfTapsRequired="1"/>
+                    </StackLayout.GestureRecognizers>
+                    <Image Source="tutorialicon.png" WidthRequest="20" HeightRequest="20" Margin="20,0,0,0" Aspect="AspectFit"/>
+                    <Label Text="Tutorial" FontSize="20"  FontAttributes="Bold"/>
+                    <Image Source="righticon.png" WidthRequest="20" HeightRequest="20" HorizontalOptions="EndAndExpand" Aspect="AspectFit"/>
+                </StackLayout>
+
+                
+                <Label VerticalOptions="EndAndExpand" HorizontalOptions="CenterAndExpand" FontSize="10" Text="Created by Ajibz Technology Limited" TextColor="DeepSkyBlue" FontAttributes="Italic"/>
+            </StackLayout>
+        </ContentPage>
+    </FlyoutPage.Flyout>
+  <FlyoutPage.Detail>
+    <NavigationPage>
+      <x:Arguments>
+        <pages:CookTutorialPage />
+      </x:Arguments>
+    </NavigationPage>
+  </FlyoutPage.Detail>
+</FlyoutPage>
